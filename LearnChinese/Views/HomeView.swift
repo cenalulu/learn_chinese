@@ -9,7 +9,6 @@ struct HomeView: View {
 
     @State private var showingReviewSession = false
     @State private var showingLearnSession = false
-    @State private var sessionMode: FlashcardSession.Mode = .review
 
     private var profile: UserProfile? { profiles.first }
 
