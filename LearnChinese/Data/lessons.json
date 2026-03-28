@@ -1,0 +1,182 @@
+{
+  "units": [
+    {
+      "id": "unit-greetings",
+      "title": "Greetings",
+      "icon": "hand.wave.fill",
+      "colorName": "blue",
+      "lessons": [
+        {
+          "id": "lesson-greetings-1",
+          "title": "Hello & Goodbye",
+          "wordIDs": [
+            "00000000-0000-0000-0000-000000000001",
+            "00000000-0000-0000-0000-000000000002",
+            "00000000-0000-0000-0000-000000000003",
+            "00000000-0000-0000-0000-000000000008"
+          ],
+          "sentenceExercises": [
+            {
+              "id": "sent-g1-1",
+              "tiles": ["你好", "！"],
+              "translation": "Hello!"
+            },
+            {
+              "id": "sent-g1-2",
+              "tiles": ["谢谢", "你", "！"],
+              "translation": "Thank you!"
+            },
+            {
+              "id": "sent-g1-3",
+              "tiles": ["再见", "！"],
+              "translation": "Goodbye!"
+            }
+          ]
+        },
+        {
+          "id": "lesson-greetings-2",
+          "title": "Pronouns",
+          "wordIDs": [
+            "00000000-0000-0000-0000-000000000004",
+            "00000000-0000-0000-0000-000000000005",
+            "00000000-0000-0000-0000-000000000006",
+            "00000000-0000-0000-0000-000000000007",
+            "00000000-0000-0000-0000-000000000009"
+          ],
+          "sentenceExercises": [
+            {
+              "id": "sent-g2-1",
+              "tiles": ["我", "是", "学生"],
+              "translation": "I am a student."
+            },
+            {
+              "id": "sent-g2-2",
+              "tiles": ["你", "好", "吗", "？"],
+              "translation": "Are you well?"
+            },
+            {
+              "id": "sent-g2-3",
+              "tiles": ["他", "不", "是", "老师"],
+              "translation": "He is not a teacher."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-descriptions",
+      "title": "Descriptions",
+      "icon": "paintpalette.fill",
+      "colorName": "orange",
+      "lessons": [
+        {
+          "id": "lesson-desc-1",
+          "title": "Size & Quality",
+          "wordIDs": [
+            "00000000-0000-0000-0000-000000000010",
+            "00000000-0000-0000-0000-000000000011",
+            "00000000-0000-0000-0000-000000000012"
+          ],
+          "sentenceExercises": [
+            {
+              "id": "sent-d1-1",
+              "tiles": ["这", "是", "一个", "大", "苹果"],
+              "translation": "This is a big apple."
+            },
+            {
+              "id": "sent-d1-2",
+              "tiles": ["我", "有", "一只", "小", "猫"],
+              "translation": "I have a small cat."
+            },
+            {
+              "id": "sent-d1-3",
+              "tiles": ["今天", "天气", "很", "好"],
+              "translation": "The weather is very good today."
+            }
+          ]
+        },
+        {
+          "id": "lesson-desc-2",
+          "title": "Actions",
+          "wordIDs": [
+            "00000000-0000-0000-0000-000000000013",
+            "00000000-0000-0000-0000-000000000014",
+            "00000000-0000-0000-0000-000000000015",
+            "00000000-0000-0000-0000-000000000016"
+          ],
+          "sentenceExercises": [
+            {
+              "id": "sent-d2-1",
+              "tiles": ["你", "想", "吃", "什么", "？"],
+              "translation": "What do you want to eat?"
+            },
+            {
+              "id": "sent-d2-2",
+              "tiles": ["我", "喜欢", "喝", "茶"],
+              "translation": "I like to drink tea."
+            },
+            {
+              "id": "sent-d2-3",
+              "tiles": ["请", "给", "我", "一杯", "水"],
+              "translation": "Please give me a glass of water."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-people",
+      "title": "People & School",
+      "icon": "person.2.fill",
+      "colorName": "green",
+      "lessons": [
+        {
+          "id": "lesson-people-1",
+          "title": "Family",
+          "wordIDs": [
+            "00000000-0000-0000-0000-000000000019",
+            "00000000-0000-0000-0000-000000000020"
+          ],
+          "sentenceExercises": [
+            {
+              "id": "sent-p1-1",
+              "tiles": ["我", "爸爸", "是", "医生"],
+              "translation": "My dad is a doctor."
+            },
+            {
+              "id": "sent-p1-2",
+              "tiles": ["我", "妈妈", "在", "家"],
+              "translation": "My mom is at home."
+            }
+          ]
+        },
+        {
+          "id": "lesson-people-2",
+          "title": "School",
+          "wordIDs": [
+            "00000000-0000-0000-0000-000000000021",
+            "00000000-0000-0000-0000-000000000022",
+            "00000000-0000-0000-0000-000000000023"
+          ],
+          "sentenceExercises": [
+            {
+              "id": "sent-p2-1",
+              "tiles": ["我们", "的", "老师", "很", "好"],
+              "translation": "Our teacher is very good."
+            },
+            {
+              "id": "sent-p2-2",
+              "tiles": ["他", "是", "一个", "好", "学生"],
+              "translation": "He is a good student."
+            },
+            {
+              "id": "sent-p2-3",
+              "tiles": ["我", "的", "学校", "很", "大"],
+              "translation": "My school is very big."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

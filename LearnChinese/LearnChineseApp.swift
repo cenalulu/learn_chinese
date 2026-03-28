@@ -8,7 +8,7 @@ struct LearnChineseApp: App {
     init() {
         do {
             container = try ModelContainer(
-                for: Word.self, UserWordRecord.self, UserProfile.self
+                for: Word.self, UserWordRecord.self, UserProfile.self, UserLessonRecord.self
             )
         } catch {
             fatalError("Failed to create ModelContainer: \(error)")

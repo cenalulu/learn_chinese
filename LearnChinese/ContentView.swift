@@ -13,6 +13,12 @@ struct ContentView: View {
             }
             .tag(AppTab.home)
 
+            CourseMapView()
+                .tabItem {
+                    Label("Lessons", systemImage: "books.vertical.fill")
+                }
+                .tag(AppTab.lessons)
+
             WordListView()
                 .tabItem {
                     Label("Words", systemImage: "character.book.closed.fill")
@@ -23,5 +29,5 @@ struct ContentView: View {
 }
 
 enum AppTab: Hashable {
-    case home, words
+    case home, lessons, words
 }
