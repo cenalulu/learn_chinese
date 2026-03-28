@@ -1,0 +1,47 @@
+name: LearnChinese
+options:
+  bundleIdPrefix: com.learnchinese
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  xcodeVersion: "15.0"
+
+targets:
+  LearnChinese:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: LearnChinese
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.learnchinese.app
+        TARGETED_DEVICE_FAMILY: "2"
+        INFOPLIST_FILE: LearnChinese/Info.plist
+        SWIFT_VERSION: "5.9"
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      configs:
+        Debug:
+          SWIFT_OPTIMIZATION_LEVEL: "-Onone"
+          DEBUG_INFORMATION_FORMAT: dwarf
+        Release:
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+          DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
+    info:
+      path: LearnChinese/Info.plist
+      properties:
+        CFBundleDisplayName: Learn Chinese
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UIRequiresFullScreen: false
+        UILaunchScreen: {}
+        NSSpeechRecognitionUsageDescription: "Used to provide pronunciation feedback."
+        NSMicrophoneUsageDescription: "Used for speaking practice exercises."
