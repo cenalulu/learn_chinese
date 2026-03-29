@@ -90,7 +90,7 @@ struct HanziOptionButton: View {
                     .foregroundStyle(state == .idle || state == .selected ? toneColor : .white)
                 Text(option.pinyin)
                     .font(.caption)
-                    .foregroundStyle(state == .idle || state == .selected ? .secondary : .white.opacity(0.8))
+                    .foregroundStyle(state == .idle || state == .selected ? Color.secondary : Color.white.opacity(0.8))
             }
             .frame(maxWidth: .infinity, minHeight: 100)
             .background(state.backgroundColor, in: RoundedRectangle(cornerRadius: 16))
